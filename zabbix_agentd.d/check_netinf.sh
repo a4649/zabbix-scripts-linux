@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#######################################################################################################################################
+#                                               Features:                                                                             #
+# Operational status of network interfaces at Layer 2 of OSI model - https://en.wikipedia.org/wiki/OSI_model#Layer_2:_Data_Link_Layer #
+# SFP / Optical Transceiver info like operational temperature, RX/TX optical power and errors                                         #
+#######################################################################################################################################
+
 INT=$1 #interface name
 OPT=$2 #operation
 
